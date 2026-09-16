@@ -1,9 +1,9 @@
 import React from "react";
-
+import Navbar from "./Navebar";
 const HeroSection = () => {
     return (
         <section className="hero-section" id="heroSection">
-
+            <Navbar />
             <div className="container">
                 <div className="banner">
                     <div className="largeBox">
@@ -19,7 +19,7 @@ const HeroSection = () => {
                                 <h1 className="title dishes_title">Dishes</h1>
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKC-Syp1jVnki5JIg-3IWI6LIkl96a7aDqLgkQultK1w&s=10" alt="hero2" />
                             </div>
-                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKC-Syp1jVnki5JIg-3IWI6LIkl96a7aDqLgkQultK1w&s=10" alt="hero4" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKC-Syp1jVnki5JIg-3IWI6LIkl96a7aDqLgkQultK1w&s=10" alt="hero4" />
                         </div>
                     </div>
                 </div>
