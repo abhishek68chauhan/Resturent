@@ -10,9 +10,19 @@ const Navbar = () => {
             <div className="logo">ABHI</div>
             <div className={show ? "navLinks showmenu" : "navLinks"}> 
                 <div className="links">
-                    {
-                        
-                    }
+                    {data[0].navbarLinks.map((element) => {
+                        return(
+                            <Link
+                             to={element.link}
+                             key={element.id}
+                             spy={true}
+                             smooth={true}
+                             duration={500}
+                            >
+                                {element.title}
+                            </Link>
+                        );
+                    })}
                 </div>
             </div>
         </nav>
