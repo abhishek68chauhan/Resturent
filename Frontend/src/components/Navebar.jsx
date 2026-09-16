@@ -24,6 +24,10 @@ const Navbar = () => {
                         );
                     })}
                 </div>
+                <button className="menuBtn">Our MENU</button>
+            </div>
+            <div className="hamburger" onClick={() => setShow(!show)}>
+                  <GiHamburgerMenu/>
             </div>
         </nav>
     );
