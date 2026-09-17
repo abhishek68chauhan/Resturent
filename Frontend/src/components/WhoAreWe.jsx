@@ -1,6 +1,6 @@
 import React from 'react'
 import { data } from "../restApi.json"
-export const WhoAreWe = () => {
+const WhoAreWe = () => {
     return (
         <section className='who_are_we' id='who_are_we'>
             <div className="container">
@@ -10,7 +10,7 @@ export const WhoAreWe = () => {
                             return (
                                 <div className="card" key={element.id}>
                                     <h1 style={{fontWeight: "300"}} className='heading'>{element.number}</h1>
-                                    <p>{element.title}</p>
+                                    <p>{element.id}</p>
                                 </div>
                             )
                         })
@@ -20,3 +20,6 @@ export const WhoAreWe = () => {
         </section>
     )
 }
+
+
+export default WhoAreWe;
