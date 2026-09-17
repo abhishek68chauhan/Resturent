@@ -15,14 +15,14 @@ const About = () => {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni in sint, cumque necessitatibus harum quis nihil, qui pariatur laudantium incidunt odit laboriosam repellendus! Corrupti velit, commodi iste tenetur accusamus eum.
                     </p>
                     <Link to={"/"}>
-                    Explore Menu{" "}
-                    <span>
-                        <HiOutlineArrowNarrowRight />
-                    </span>
+                        Explore Menu{" "}
+                        <span>
+                            <HiOutlineArrowNarrowRight />
+                        </span>
                     </Link>
                 </div>
                 <div className="banner">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKC-Syp1jVnki5JIg-3IWI6LIkl96a7aDqLgkQultK1w&s=10" alt="about" />
+                    <img src="about.png" alt="about" />
                 </div>
             </div>
         </section>

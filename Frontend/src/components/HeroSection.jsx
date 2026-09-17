@@ -11,13 +11,13 @@ const HeroSection = () => {
                     </div>
                     <div className="combineBox">
                         <div className="imageBox">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKC-Syp1jVnki5JIg-3IWI6LIkl96a7aDqLgkQultK1w&s=10" alt="hero1" />
+                            <img src="./hero1.png" alt="hero1" />
                         </div>
                         <div className="textAndLogo">
                             <div className="textWithSvg">
                                 <h1 className="title">Food</h1>
                                 <h1 className="title dishes_title">Dishes</h1>
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKC-Syp1jVnki5JIg-3IWI6LIkl96a7aDqLgkQultK1w&s=10" alt="hero2" />
+                                <img src="./threelines.svg" alt="hero2" />
                             </div>
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKC-Syp1jVnki5JIg-3IWI6LIkl96a7aDqLgkQultK1w&s=10" alt="hero4" />
                         </div>
