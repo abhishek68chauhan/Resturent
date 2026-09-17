@@ -9,7 +9,8 @@ export const WhoAreWe = () => {
                         data[0].who_we_are.map(element => {
                             return (
                                 <div className="card" key={element.id}>
-
+                                    <h1 style={{fontWeight: "300"}} className='heading'>{element.number}</h1>
+                                    <p>{element.title}</p>
                                 </div>
                             )
                         })
