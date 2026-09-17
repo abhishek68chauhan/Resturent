@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className="logo">ABHI</div>
+            <div className="logo">Resturent</div>
 
             <div className={show ? "navLinks showmenu" : "navLinks"}>
                 <div className="links">
