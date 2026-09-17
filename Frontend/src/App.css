@@ -77,14 +77,14 @@ nav .menuBtn {
   padding: 8px 20px;
   color: black;
   background: transparent;
-  border: 1px solid #333;
+  border: 1px solid #353535;
   border-radius: 20px;
   font-size: 16px;
 }
 
 nav .menuBtn:hover {
   color: #fff;
-  background: #222;
+  background: #212121;
   transition: 0.3s;
   cursor: pointer;
 }
