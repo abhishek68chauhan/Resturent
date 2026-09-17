@@ -25,7 +25,7 @@ const HeroSection = () => {
                 </div>
                 <div className="banner">
                     <div className="imageBox">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKC-Syp1jVnki5JIg-3IWI6LIkl96a7aDqLgkQultK1w&s=10" alt="hero4" />
+                        <img src="hero2.png" alt="hero4" />
                     </div>
                     <h1 className="title dishes_title">Dishes</h1>
                 </div>
