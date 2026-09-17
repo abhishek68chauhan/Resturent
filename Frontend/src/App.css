@@ -34,7 +34,7 @@ nav::after {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgb(215, 215, 215);
+  background: rgb(234, 233, 233);
 }
 
 nav .logo {
@@ -68,7 +68,7 @@ nav .navLinks .links a {
 }
 
 nav .navLinks .links a:hover {
-  color: #222;
+  color: #232222;
   transition: 0.3s;
   cursor: pointer;
 }
