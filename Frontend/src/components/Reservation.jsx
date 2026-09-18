@@ -3,7 +3,9 @@ import { data } from 'react-router-dom';
 
 const Reservation = () => {
   return (
-    <div>Reservation</div>
+    <section className='reservation' id='reservation'>
+
+    </section>
   )
 }
 
