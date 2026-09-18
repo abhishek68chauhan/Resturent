@@ -12,6 +12,7 @@ const Reservation = () => {
     const [date, setDate] = useState(" ");
     const [time, setTime] = useState(" ");
     const [phone, setPhone] = useState(0);
+    const navigate = useNavigat();
 
     return <section className='reservation' id='reservation'></section>
 };
