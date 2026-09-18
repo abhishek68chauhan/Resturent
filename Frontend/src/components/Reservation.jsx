@@ -1,5 +1,6 @@
 import React from 'react'
-import { data } from 'react-router-dom';
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';     
+
 
 const Reservation = () => {
   return (
