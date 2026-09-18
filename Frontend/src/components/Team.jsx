@@ -9,7 +9,13 @@ const Team = () => {
             </div>
             <div className="team_container">
                 {
-                    
+                    data[0].team.map(element=>{
+                        return(
+                            <div className="card" key={element.id}>
+                                
+                            </div>
+                        )
+                    })
                 }
             </div>
         </div>
