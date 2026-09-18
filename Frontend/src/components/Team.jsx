@@ -3,7 +3,7 @@ import { data } from "../restApi.json";
 const Team = () => {
     return <section className='team' id='team'>
         <div className="container">
-            <div className="heading-section">
+            <div className="heading_section">
                 <h1>OUR TEAM</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis delectus illo fugiat ipsum. Explicabo totam quam earum doloribus repudiandae non, magni suscipit laboriosam ipsam, sunt nemo beatae eveniet nesciunt unde.</p>
             </div>
