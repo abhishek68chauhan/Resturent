@@ -12,7 +12,7 @@ const Team = () => {
                     data[0].team.map(element=>{
                         return(
                             <div className="card" key={element.id}>
-                                
+                                <img src={element.image} alt={element.name} />
                             </div>
                         )
                     })
