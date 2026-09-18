@@ -14,6 +14,12 @@ const Reservation = () => {
     const [phone, setPhone] = useState(0);
     const navigate = useNavigat();
 
+    const handleReservation = async (e) => {
+        try{
+
+        }catch(error){}
+    }
+
     return <section className='reservation' id='reservation'></section>
 };
 
