@@ -4,7 +4,7 @@ const Team = () => {
     return <section className='team' id='team'>
         <div className="container">
             <div className="heading_section">
-                <h1>OUR TEAM</h1>
+                <h1 className='heading'>OUR TEAM</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis delectus illo fugiat ipsum. Explicabo totam quam earum doloribus repudiandae non, magni suscipit laboriosam ipsam, sunt nemo beatae eveniet nesciunt unde.</p>
             </div>
             <div className="team_container">
