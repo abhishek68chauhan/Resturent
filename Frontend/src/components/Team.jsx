@@ -1,7 +1,9 @@
 import React from 'react';
 import {data} from "../restApi.json";
-export const Team = () => {
+const Team = () => {
   return (
     <div>Team</div>
   )
 }
+
+export default Team;
