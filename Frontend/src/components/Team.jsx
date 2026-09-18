@@ -7,6 +7,11 @@ const Team = () => {
                 <h1>OUR TEAM</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis delectus illo fugiat ipsum. Explicabo totam quam earum doloribus repudiandae non, magni suscipit laboriosam ipsam, sunt nemo beatae eveniet nesciunt unde.</p>
             </div>
+            <div className="team_container">
+                {
+                    
+                }
+            </div>
         </div>
     </section>
 }
