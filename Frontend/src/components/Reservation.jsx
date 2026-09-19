@@ -35,7 +35,9 @@ const Reservation = () => {
             setTime("");
             setDate("");
             navigate("/success");
-        }catch(error){}
+        }catch(error){
+            toast.error(error.response.data.message);
+        }
     };
 
     return <section className='reservation' id='reservation'></section>
