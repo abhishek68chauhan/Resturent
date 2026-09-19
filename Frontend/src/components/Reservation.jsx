@@ -34,6 +34,7 @@ const Reservation = () => {
             setEmail("");
             setTime("");
             setDate("");
+            navigate("/success");
         }catch(error){}
     };
 
