@@ -17,6 +17,10 @@ const Reservation = () => {
     const handleReservation = async (e) => {
         e.preventDefault();
         try{
+            const {data} = await axios.useOptimistic(
+                "http://localhost:4000/api/v1/reservation/send",
+                { firstName, lastName, email, phone, data, time },
+            )
 
         }catch(error){}
     }
