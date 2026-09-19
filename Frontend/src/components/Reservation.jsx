@@ -45,6 +45,12 @@ const Reservation = () => {
             <div className="banner">
                 <img src=".reservation.png" alt="res" />
             </div>
+            <div className="banner">
+                <div className="reservation_form_box">
+                    <h1>MAKE A RESERVATION</h1>
+                    <p>For Further Question, Please Call</p>
+                </div>
+            </div>
         </div>
     </section>
 };
