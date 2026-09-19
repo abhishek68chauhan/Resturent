@@ -65,6 +65,9 @@ const Reservation = () => {
                              onChange={(e) => setLastName(e.target.value)}
                              />
                         </div>
+                        <div>
+                            <input type="date" placeholder='Date' value={date} onChange={(e) => setDate(e.target.value)} />
+                        </div>
                     </form>
                 </div>
             </div>
