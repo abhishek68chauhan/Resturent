@@ -40,7 +40,8 @@ const Reservation = () => {
         }
     };
 
-    return <section className='reservation' id='reservation'>
+    return (
+    <section className='reservation' id='reservation'>
         <div className="container">
             <div className="banner">
                 <img src=".reservation.png" alt="res" />
@@ -49,10 +50,21 @@ const Reservation = () => {
                 <div className="reservation_form_box">
                     <h1>MAKE A RESERVATION</h1>
                     <p>For Further Question, Please Call</p>
+                    <form>
+                        <div>
+                            <input
+                             type="text"
+                             placeholder='First Name'
+                             value={firstName}
+                             onChange={(e) => setFirstName(e.target.value)}
+                             />
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+    );
 };
 
 export default Reservation;
