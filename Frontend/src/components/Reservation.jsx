@@ -40,7 +40,13 @@ const Reservation = () => {
         }
     };
 
-    return <section className='reservation' id='reservation'></section>
+    return <section className='reservation' id='reservation'>
+        <div className="container">
+            <div className="banner">
+                <img src=".reservation.png" alt="res" />
+            </div>
+        </div>
+    </section>
 };
 
 export default Reservation;
