@@ -15,6 +15,7 @@ const Reservation = () => {
     const navigate = useNavigat();
 
     const handleReservation = async (e) => {
+        e.preventDefault();
         try{
 
         }catch(error){}
