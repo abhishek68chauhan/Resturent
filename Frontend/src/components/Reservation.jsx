@@ -27,6 +27,13 @@ const Reservation = () => {
                     withCredentials: true
                 }
             );
+            toast.success(data.message);
+            setFirstName("");
+            setLastName("");
+            setPhone(0);
+            setEmail("");
+            setTime("");
+            setDate("");
         }catch(error){}
     };
 
