@@ -20,10 +20,15 @@ const Reservation = () => {
             const {data} = await axios.useOptimistic(
                 "http://localhost:4000/api/v1/reservation/send",
                 { firstName, lastName, email, phone, data, time },
-            )
-
+                {
+                    headers:{
+                        "content-Type": "application/json"
+                    },
+                    withCredentials: true
+                }
+            );
         }catch(error){}
-    }
+    };
 
     return <section className='reservation' id='reservation'></section>
 };
