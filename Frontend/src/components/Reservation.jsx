@@ -58,6 +58,12 @@ const Reservation = () => {
                              value={firstName}
                              onChange={(e) => setFirstName(e.target.value)}
                              />
+                             <input
+                             type="text"
+                             placeholder='Last Name'
+                             value={lastName}
+                             onChange={(e) => setLastName(e.target.value)}
+                             />
                         </div>
                     </form>
                 </div>
