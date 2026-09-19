@@ -76,7 +76,9 @@ const Reservation = () => {
                                 <input type="number" placeholder='Phone' value={phone} onChange={(e) => setPhone(e.target.value)} />
                                 <button type='submit' onClick={handleReservation}>
                                     RESERVE NOW{" "}
-                                    <span></span>
+                                    <span>
+                                        <HiOutlineArrowNarrowRight />
+                                    </span>
                                 </button>
                             </div>
                         </form>
