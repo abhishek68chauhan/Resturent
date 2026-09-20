@@ -16,7 +16,7 @@ const Success = () => {
         }
         return preCount - 1;
       })
-    }, 1000);
+    }, 100);
     return () => clearInterval(timeoutId);
 
   }, [navigate]);
