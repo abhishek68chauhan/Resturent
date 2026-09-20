@@ -12,6 +12,9 @@ const Footer = () => {
                     <p>Open: 10:00 AM - 05:00 PM</p>
                 </div>
             </div>
+            <div className="banner">
+                <div className="left"></div>
+            </div>
         </div>
 
 
