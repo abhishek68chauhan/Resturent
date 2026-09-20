@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="banner">
                 <div className="left">RESTURENT</div>
                 <div className="right">
-                    <p>VBSPU, Jaunpur</p>
+                    <p>Near By VBSPU, Jaunpur</p>
                     <p>Open: 10:00 AM - 05:00 PM</p>
                 </div>
             </div>
