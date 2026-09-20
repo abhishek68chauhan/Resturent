@@ -132,14 +132,13 @@ const Reservation = () => {
                                     }
                                     required
                                 />
-
-                                <button type="submit">
+                            </div>
+                             <button type="submit">
                                     RESERVE NOW{" "}
                                     <span>
                                         <HiOutlineArrowNarrowRight />
                                     </span>
                                 </button>
-                            </div>
                         </form>
                     </div>
                 </div>
