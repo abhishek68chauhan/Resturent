@@ -46,10 +46,7 @@ const Reservation = () => {
 
             navigate("/success");
         } catch (error) {
-            toast.error(
-                error.response?.data?.message ||
-                "Reservation failed. Please try again."
-            );
+            toast.error(error);
         }
     };
 
