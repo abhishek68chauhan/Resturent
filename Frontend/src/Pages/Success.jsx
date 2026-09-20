@@ -4,10 +4,15 @@ import { useNavigate } from "react-router-dom";
 const Success = () => {
   const [countdown, setCountdown ] = useState(10);
   const navigate = useNavigate();
-  return (
+
+  useEffect(()=>{
+
+
+
+  },[navigate])
+  return 
     <>
     </>
-  );
 };
 
 export default Success; 
