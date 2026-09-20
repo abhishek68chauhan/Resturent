@@ -7,7 +7,7 @@ const Success = () => {
 
   useEffect(()=>{
 
-
+    
 
   },[navigate])
   return 
