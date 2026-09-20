@@ -16,7 +16,6 @@ const Reservation = () => {
 
     const handleReservation = async (e) => {
         e.preventDefault();
-
         try {
             const { data } = await axios.post(
                 "http://localhost:4000/api/v1/reservation/send",
@@ -133,12 +132,12 @@ const Reservation = () => {
                                     required
                                 />
                             </div>
-                             <button type="submit">
-                                    RESERVE NOW{" "}
-                                    <span>
-                                        <HiOutlineArrowNarrowRight />
-                                    </span>
-                                </button>
+                            <button type="submit">
+                                RESERVE NOW{" "}
+                                <span>
+                                    <HiOutlineArrowNarrowRight />
+                                </span>
+                            </button>
                         </form>
                     </div>
                 </div>
