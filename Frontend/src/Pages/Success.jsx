@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const Success = () => {
   const [countdown, setCountdown] = useState(10);
@@ -19,8 +20,14 @@ const Success = () => {
     return () => clearInterval(timeoutId);
 
   }, [navigate]);
-  return
-  <>
+  return<>
+  <section className="notFound">
+    <div className="container">
+      <img src="/sandwich.png" alt="success" />
+      <h1>Redirecting to Home in {countdown} seconds...</h1>
+      <Link to={'/'}>Back to Home <HiOutlineArrowNarrowRight /></Link>
+    </div>
+  </section>
   </>
 };
 
