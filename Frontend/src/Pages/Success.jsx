@@ -2,17 +2,24 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Success = () => {
-  const [countdown, setCountdown ] = useState(10);
+  const [countdown, setCountdown] = useState(10);
   const navigate = useNavigate();
 
-  useEffect(()=>{
+  useEffect(() => {
 
-    
+    const timeoutId = setInterval(()=> {
+      setCountdown(preCount =>{
+        if(preCount === 1){
+          clearInterval(timeoutId)
+          navigate("/")
+        }
+      })
+    },1000)
 
-  },[navigate])
-  return 
-    <>
-    </>
+  }, [navigate])
+  return
+  <>
+  </>
 };
 
 export default Success; 
