@@ -8,7 +8,7 @@ const NotFound = () => {
       <section className='notFound'>
         <div className="container">
           <img src="/notFound.svg" alt="notFound" />
-          
+          <h1>LOOKS LIKE YOU'RE LOST</h1>
         </div>
       </section>
     </>
