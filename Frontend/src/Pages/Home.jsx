@@ -5,6 +5,7 @@ import Qualities from '../components/Qualities';
 import Team from '../components/Team';
 import WhoAreWe from "../components/WhoAreWe";
 import Reservation from '../components/Reservation';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <WhoAreWe />
       <Team />
       <Reservation />
+      <Footer />
     </>
   )
 }
