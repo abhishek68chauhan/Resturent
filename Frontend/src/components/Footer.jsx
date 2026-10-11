@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className="banner">
                 <div className="left">
-                    <p>Developed By Abhishek Chauhan</p>
+                    <p>Developed By Abhishek Chauhan.</p>
                 </div>
                 <div className="right">
                     <p>All Rights By Abhishek Chauhan.</p>
