@@ -17,7 +17,7 @@ const Footer = () => {
                     <p>Developed By Abhishek Chauhan</p>
                 </div>
                 <div className="right">
-                    <p>All Rights By Abhishek Chauhan.</p>
+                    <p>All Rights By Abhishek Chauhan</p>
                 </div>
             </div>
         </div>
